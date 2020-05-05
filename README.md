@@ -9,7 +9,7 @@ html
 when publish on github tableau js embed is not work. 
 local embed tableau can use js file.
 
-### PPT Visualization link: 
+### Visualization link: 
 https://chenchends.github.io/Global-Trade-Visualization/index.html
 
 
