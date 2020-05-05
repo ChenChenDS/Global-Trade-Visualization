@@ -1,0 +1,155 @@
+html {
+    height: 100%;
+}
+
+*{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    /* background-image: url("../images/background4.png"); */
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#menubar {
+    margin-bottom: 150px;
+    margin-top: -10px;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    display: inline-block;
+    background-color: black;
+}
+
+ul#menu {
+    display: inline-block;
+}
+
+#menu li {
+    list-style: none;
+    border-right: 1px solid #bbb;
+    float: left;
+}
+
+#menu li:last-child {
+    border-right: none;
+  }
+
+#menu li a {
+    letter-spacing: 0em;
+    font: normal 125% arial, sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: rgb(225, 235, 247);
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(80, 75, 75);
+  }
+  
+  .active {
+    background-color: rgb(18, 128, 18);
+  }
+
+#content {
+    padding-top: 100px;
+    width: 100%;
+    float: center;
+  }
+
+
+#countrybar {
+    padding: 130px 0 130px 0;
+    margin-bottom: 120px;
+    position: relative;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    display: inline-block;
+}
+
+ul#countrylist {
+    display: inline-block;
+    padding: 0 10px 0 10px;
+}
+
+#countrylist li {
+    list-style: none;
+    float: left;
+    background-color: lightsalmon;
+    border-radius: 8px;
+}
+
+#countrylist li:last-child {
+    border-right: none;
+  }
+
+#countrylist li a {
+    letter-spacing: 0em;
+    font: normal 125% arial, sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: rgb(39, 41, 44);
+}
+
+#countrylist li a:hover:not(.active) {
+    background-color: rgb(155, 82, 110);
+    border-radius: 8px;
+  }
+  
+  .active {
+    background-color: rgb(76, 102, 175);
+  }
+
+.btn {
+    margin: 5px;
+  }
+
+#content h1{
+    background-color: rgba(10, 10, 10, 0.5);
+    color: rgb(225, 235, 247);
+    margin-bottom: 20px;
+    margin-left: 150px;
+} 
+
+#content p{
+    background-color: rgba(10, 10, 10, 0.5);
+    color: rgb(225, 235, 247);
+    margin-top: -20px;
+    margin-left: 150px;
+}
+
+#contact {
+    padding-top: 200px;
+    text-align: center;
+    font-size: large;
+    color: burlywood;
+    padding-bottom: 200px;
+    text-decoration: none;
+}
+
+#footer {
+    margin-top: -30px;
+    width: 98%;
+    height: 33px;
+    padding: 20px 0 0 0;
+    text-align: center;
+    color:rgb(76, 104, 231);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: 80%;
+}
